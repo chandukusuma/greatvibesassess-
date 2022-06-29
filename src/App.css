@@ -36,3 +36,80 @@
     transform: rotate(360deg);
   }
 }
+
+.container{
+  width: 400px;
+  margin: auto;
+  border: 2px solid black;
+  
+}
+
+.form{
+  width: 300px;
+  margin: auto;
+  padding: 20px;
+  
+}
+h1{
+  text-align: center;
+}
+
+.field{
+  
+  justify-content: center;
+  padding: 15px;
+}
+.label{
+  padding-right: 15px;
+  color: grey;
+  font-weight: 700;
+}
+.labell{
+  padding-right: 48px;
+  color: grey;
+  font-weight: 700;
+}
+.fluidbutton{
+  margin-top: 5%;
+  width: 200px;
+  padding: 10px;
+  background-color: rgb(143, 143, 255);
+  border: none;
+  border-radius: 10px;
+  margin-left: 12%;
+}
+
+.error{
+  color: red;
+  padding-top: 0;
+  padding-left: 35%;
+  margin-top: -5%;
+  font-size: small;
+}
+
+.label1{
+  padding-right: 47px;
+  color: grey;
+  font-weight: 700;
+}
+.label2{
+  padding-right: 35px;
+  color: grey;
+  font-weight: 700;
+}
+.label3{
+  padding-right: 29px;
+  color: grey;
+  font-weight: 700;
+}
+.label4{
+  padding-right: 60px;
+  color: grey;
+  font-weight: 700;
+}
+.label5{
+  padding-right: 50px;
+  color: grey;
+  font-weight: 700;
+  
+}
