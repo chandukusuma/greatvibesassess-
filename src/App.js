@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import { useState, useEffect } from 'react';
 
@@ -28,7 +28,7 @@ function App() {
     if(Object.keys(error).length === 0 && didSubmit){
       console.log(formdata)
     }
-  }, [error])
+  }, [error, didSubmit, formdata])
 
   const validation = (values) =>{
     const errors = {};
